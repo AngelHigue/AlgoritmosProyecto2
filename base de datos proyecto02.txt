@@ -1,7 +1,0 @@
-Nombre	Categoría	(+18)	Precio	Plataformas
-Tomb Raider	Multi, Historia 	No	Q450	Consolas, PC
-Fallout 4	Historia	Si	Q500	Consolas, PC
-Fortnite	Multi	No	Q500	Consolas,PC, Móviles
-Uncharted	Historia	Si	Q600	PS4
-Nier Automata	Historia	Si	Q600	Consolas Next Gen, PC
-Call of Duty	Multi, Historia 	Si	Q600	Consolas Next Gen, Old Gen, PC
