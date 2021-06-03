@@ -10,7 +10,10 @@ const list = (categoria, multijugador, edad, plataforma) => {
   return new Promise((resolve, reject) => {
 
     session
-      .run('MATCH (n1)-[r]->(n2) RETURN r, n1, n2 LIMIT 10')
+      .run('MATCH (n1)-[${categoria}]->(n2) RETURN r, n1, n2 ')
+      .run('MATCH (n1)-[${multijugador}]->(n2) RETURN r, n1, n2')
+      .run('MATCH (n1)-[${edad}]->(n2) RETURN r, n1, n2')
+      .run('MATCH (n1)-[${plataforma}]->(n2) RETURN r, n1, n2 LIMIT 10')
       .then(result => {
         result.records.forEach(record => {
           console.log(record)
